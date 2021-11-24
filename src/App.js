@@ -1,9 +1,15 @@
 import './App.css';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+import { Sidebar } from './components/Sidebar';
 
 function App() {
   return (
     <div className="app">
-      <h1>Bienvenidos al segundo direacto</h1>
+      <h1>App.js</h1>
+      <Header/>
+      <Sidebar/>
+      <Main/>
     </div>
   );
 }
