@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { IconButton } from '@mui/material';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import TextField from '@mui/material/TextField';
 import Avatar from '@mui/material/Avatar';
@@ -9,7 +9,9 @@ export const Header = () => {
     return (
         <div className="header">
             <div className="header___left">
-                <MenuIcon color="primary" fontSize="large"/>
+                <IconButton>
+                    <MenuIcon color="primary" fontSize="large"/>
+                </IconButton>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" alt="React.svg.png" />
                 <p>React</p>
             </div>
