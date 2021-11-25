@@ -1,9 +1,10 @@
 import React from 'react'
 import './Post.css'
-export const Post = () => {
+export const Post = ({title,content}) => {
     return (
         <div className="post">
-            <h2>Post.js</h2>
+            <h2>{title}</h2>
+            <p>{content}</p>
         </div>
     )
 }

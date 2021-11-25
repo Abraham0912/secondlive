@@ -1,4 +1,7 @@
 .post{
     border: rosybrown solid 3px;
-    margin: 3px;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: white;
 }

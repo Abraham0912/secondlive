@@ -1,4 +1,6 @@
 .sidebar{
-    border: coral solid 3px;
-    margin: 3px;
+    border: coral solid .2rem;
+    margin: .5rem;
+    border-radius: 1rem;
+    padding: 1rem;
 }
