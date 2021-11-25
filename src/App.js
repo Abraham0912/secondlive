@@ -6,10 +6,12 @@ import { Sidebar } from './components/Sidebar';
 function App() {
   return (
     <div className="app">
-      <h1>App.js</h1>
       <Header/>
-      <Sidebar/>
-      <Main/>
+      <div className="app__center">
+        <Sidebar/>
+        <Main/>
+      </div>
+      
     </div>
   );
 }
